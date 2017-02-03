@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="mire">
+    Miresevini ne Portalin e Summer Schools
+  </div>
+  <ul><!-- menuja -->
+    <li><a href="faqja1.html">Home</a></li>
+    <li><a>Informacion mbi kampin</a></li>
+    <li><a  href="instrLogIn.html">Instructor log in</a></li>
+    <li><a  href="studLogIn.html">Student log in</a></li>
+  </ul>
+  <form class="form">
+    <p><b>Student Log In</b><p><!-- Formal Log In -->
+    <p>Username: <input id="bol" type="text"></p>
+    <p>Password: <input id="bol2" type="password"></p>
+    <a href="frgpass.html"><sub>Forgotten password?</sub></a>
+      <p><input type="button" value="Log In" onclick="checkText()"></p>
+  </form>
+  <br><br>
+  <div style="border: solid 2px red; display:none; margin-left: 35%; padding: 1px;" id="error">
+  Ju lutem plotesoni fushat e mbetura te shenuara me te kuqe!
+  </div>
+  <script type="text/javascript" src="jsCtrlInp.js"></script>
+</body>
+</html>

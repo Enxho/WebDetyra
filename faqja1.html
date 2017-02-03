@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="form.css"> <!-- css per formen e aplikimit -->
+<script type="text/javascript" src="jsCtrlInp.js"></script>
+</head>
+
+<body>
+<div class="mire">
+  Miresevini ne Portalin e Summer Schools
+</div>
+<ul>
+  <li><a href="faqja1.html">Home</a></li>
+  <li><a>Informacion mbi kampin</a></li>
+  <li><a  href="instrLogIn.html">Instructor log in</a></li>
+  <li><a  href="studLogIn.html">Student log in</a></li>
+</ul>
+
+<form class="form">
+  <b> Application form </b>
+ <p>Emri:     <input id="a1" type="text"></p>
+ <p>Mbiemri: <input id="a2" type="text"></p>
+ <p>Username: <input id="a3" type="text"></p>
+ <p>E-mail: <input id="a4" type="text"></p>
+ <p>Password: <input id="a5" type="password"></p>
+ <p>Retype Password: <input id="a6" type="password"></p>
+ <p>Shkolla: <input id="a7" type="text"></p>
+ <p><input type="button" value="Rregjistrohu" onclick="checktext()"></p>
+ <br><br>
+</form>
+<div style="border: solid 2px red; display:none; margin-left: 35%; padding: 1px;" id="error">
+Ju lutem plotesoni fushat e mbetura te shenuara me te kuqe!
+</div>
+<div style="border: solid 2px red; display:none; margin-left: 35%; margin-top: 5px; padding: 1px;" id="error2">
+Passwords do not match!
+</div>
+
+</body>
+</html>

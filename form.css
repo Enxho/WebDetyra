@@ -1,0 +1,56 @@
+body{
+  background-image: url("bck.jpg");
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+}
+li{
+  display: inline-block;
+  padding-left: 30px;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+a:hover{
+  color:red;
+}
+
+.mire{
+  display: inline-block;
+  margin: auto;
+  padding: 10px 20px;
+  color: black;
+  float: center;
+  font-size: 30px;
+  color: grey;
+
+}
+
+div p{
+  display: block;
+  text-align: left;
+}
+
+form.form{
+
+  padding: 40px;
+  float: center;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+
+
+
+}
+p input{
+  position: relative;
+  float: right;
+
+}
